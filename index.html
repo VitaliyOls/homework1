@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Age</title>
+</head>
+<body>
+   <script>
+      var age = prompt('Вветиде Ваш возраст', 18);
+
+      var count = age % 100;
+
+      if (count >= 5 && count <= 20) {
+         alert(`Привет! Тебе ${age} лет`);
+      } else {
+         var nextCount = age % 10;
+
+         if (nextCount === 1) {
+            alert(`Привет! Тебе ${age} год`); 
+         } else if (nextCount >= 2 && nextCount <= 4) {
+            alert(`Привет! ${age} годa`);
+         } else {
+            alert(`Привет! Тебе ${age} лет`);
+         }
+      }
+   
+
+      
+
+      
+
+
+      
+      
+           
+            
+         
+      
+
+     
+         
+      
+   
+   </script>
+</body>
+</html> 
